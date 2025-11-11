@@ -36,13 +36,13 @@ while(TI==0); TI=0;
 
 {
 
-unsigned char msg[]="Programming 8051"; unsigned char i;
+unsigned char msg[]="8051 MICROCONTROLLER"; unsigned char i;
 
 TMOD=0X20;//TIMER 1,MODE 2 TH1=0XFA;
 
 SCON=0X50; TR1=1;
 
-for (i=0; i<17;i++)
+for (i=0; i<25;i++)
 
 {
 
@@ -56,6 +56,14 @@ while(1);
 ```
  
 **OUTPUT:**
+
+Serial port transfer a character A:
+<img width="1039" height="174" alt="image" src="https://github.com/user-attachments/assets/aec974d6-4c17-4775-8e8a-f14211e5ba8c" />
+
+Serial port to Transfer a Message:
+<img width="955" height="277" alt="image" src="https://github.com/user-attachments/assets/89597ed9-57e7-464c-877a-0c41ee6f4407" />
+
+
 <br>
 <br>
 <br>
