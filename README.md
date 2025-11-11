@@ -11,7 +11,7 @@ Personal computer with Keil software
 **PROGRAM:**
 
 **(i)	Serial port transfer a character A**
-
+```
 #include<reg51.h> void main(void)
 
 {
@@ -29,9 +29,9 @@ while(TI==0); TI=0;
 }
 
 }
-
+```
 **(ii)	Serial port to Transfer a Message**
-
+```
 #include<reg51.h> void main(void)
 
 {
@@ -53,7 +53,7 @@ SBUF= msg[i]; while(TI==0); TI=0;
 while(1);
 
 }
-
+```
  
 **OUTPUT:**
 <br>
